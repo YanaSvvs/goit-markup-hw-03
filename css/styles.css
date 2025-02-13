@@ -235,7 +235,9 @@ margin-right: 76px;
 padding: 32px 0;
 }
 
-.team-img {}
+.team-img {
+    display: block;
+}
 
 .team-subtitle {
         font-weight: 500;
@@ -293,7 +295,9 @@ padding: 32px 0;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.portfolio-img {}
+.portfolio-img {
+    display: block;
+}
 
 .portfolio-subtitle {
         font-weight: 500;
