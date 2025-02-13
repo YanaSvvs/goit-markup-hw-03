@@ -136,6 +136,12 @@ margin-right: 76px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        padding-top: 188px;
+        padding-bottom: 292px;
+        margin:0 auto;
+        display: block;
+        width: 496px;
+        word-wrap: break-word;
 }
 
 .hero-btn {
@@ -145,6 +151,11 @@ margin-right: 76px;
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
+        margin: 48 auto auto;
+        cursor: pointer;
+        display: block;
+        align-items: center;
+
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -154,9 +165,18 @@ margin-right: 76px;
 
 .text {}
 
-.text-head {}
+.text-head {
+    display: none;
+}
 
-.text-items {}
+.text-items {
+    display: flex;
+    gap: 24px;
+    width: calc((100%-72)/4);
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
 
 .text-items-list {}
 
@@ -276,11 +296,21 @@ margin-right: 76px;
     color: #f4f4fd;
 }
 
+.sectn-box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .footer-text {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        word-wrap: break-word;
+        display: block;
+        width: 264px;
+        height: 72px;
+        margin-top: 16px;
 }
 /* #endregion footer*/
