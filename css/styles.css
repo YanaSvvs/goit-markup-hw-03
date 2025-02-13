@@ -211,7 +211,8 @@ margin-right: 76px;
 }
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-caption {
@@ -228,13 +229,12 @@ margin-right: 76px;
 .team-list {
     display: flex;
     gap: 24px;
-    padding: 120px 0;
 }
 
 .team-list-people {
-    background-color: #FFFFFF
-    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
@@ -267,7 +267,7 @@ padding: 32px 0;
 }
 
 .portfolio {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
     padding: 120px 0 120px 0;
 }
 
@@ -283,7 +283,7 @@ padding: 32px 0;
 }
 
 .portfolio-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
