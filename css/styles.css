@@ -185,8 +185,6 @@ margin-right: 76px;
 .text-items {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .text-items-list {
@@ -267,7 +265,6 @@ padding: 32px 0;
 }
 
 .portfolio {
-    background-color: #F4F4FD;
     padding: 120px 0 120px 0;
 }
 
@@ -361,6 +358,6 @@ padding: 32px 0;
         display: block;
         width: 264px;
         height: 72px;
-        margin-top: 16px;
+       
 }
 /* #endregion footer*/
